@@ -1,0 +1,62 @@
+.freehand-regular {
+  font-family: "Freehand", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.hero-section {
+    width: 100%;
+    height: 80vh;          /* ពេញ screen height */
+    overflow: hidden;
+}
+
+.logo {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    display: block;
+    border-radius: 50%;
+    flex-shrink: 0;
+}
+
+.logo-lg {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+    border-radius: 50%;
+}
+.bg-mobile {
+    background-color: #064a28;
+    
+}
+
+@media (max-width: 767px) {
+    .bg-mobile {
+        background-color: #c3e0d2;
+        box-shadow: none;
+        
+
+
+       
+    }
+   
+}
+
+.noto-sans-khmer {
+  font-family: "Noto Sans Khmer", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+    font-size: medium;
+}
+.bg-about{
+    background-color: #093a21;
+    
+}
+.bayon-regular {
+  font-family: "Bayon", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}

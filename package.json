@@ -1,0 +1,8 @@
+{
+  "devDependencies": {
+    "tailwindcss-animated": "^2.1.0"
+  },
+  "dependencies": {
+    "tailwindcss-animate": "^1.0.7"
+  }
+}
